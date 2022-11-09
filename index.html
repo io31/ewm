@@ -71,7 +71,7 @@
 
 	// 设置 qrcode 参数
 	var qrcode = new QRCode('qrcode', {
-		text: 'https://io31.github.io/dh/',
+		text: 'https://io31.github.io/dh',
 		width: 256,
 		height: 256,
 		colorDark: '#000000',
@@ -99,7 +99,7 @@
 	//清除二维码内容
 	function f_onClearQrcode() {
 		if (txtContent) {
-			txtContent.value = "https://sh520i.github.io/dh/";
+			txtContent.value = "https://io31.github.io/dh";
 			// 使用 API
 			qrcode.clear();
 			qrcode.makeCode('请输入二维码内容再生成图像');
